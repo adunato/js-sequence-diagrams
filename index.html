@@ -46,7 +46,7 @@
 
     <div id="main">
 
-      <section id="main editor">
+      <section id="main_editor">
         <table align="center" class="inner">
           <tr>
             <td>
@@ -74,7 +74,7 @@ Andrew->>China: I am good thanks!</div>
         <table align="center" class="inner">
           <tr>
             <td>
-            <h3>TEST. Try editing me below</h3>
+            <h3>Demo. Try editing me below</h3>
             <div class="editor-wrapper">
               <div class="editor">Andrew->China: Says Hello
 Note right of China: China thinks\nabout it
@@ -293,7 +293,8 @@ $(&quot;.diagram&quot;).sequenceDiagram({theme: &#39;hand&#39;});
         //$('.diagram').sequenceDiagram();
 
         // Setup all the editors
-        setup_editor($('#demo'));
+        setup_editor($('#main_editor'));
+		    setup_editor($('#demo'));
         setup_editor($('#example1'));
         setup_editor($('#example2'));
         setup_editor($('#example3'));
